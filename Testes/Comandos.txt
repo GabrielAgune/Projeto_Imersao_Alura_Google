@@ -3,3 +3,17 @@ Resposta esperada: Insuficiência Cardíaca
 
 Comando: Dado o caso clínico: Paciente, sexo masculino, em uma consulta na Unidade Básica de Saúde relata cansaço há 3 dias acompanhado de dispneia, que piora com esforço, melhora ao repouso. Além disso, relata dispneia paroxística noturna. Nega dor precordial, nega febre, nega tontura, nega tabagismo e nega etilismo. Qual o diagnóstico mais provável?
 
+Teste 2 
+Resposta esperada: Diabetes Mellitus
+Comando: Dado o caso clínico: Paciente relata poliúria, polidipsia e perda de peso de cerca de 8 kg nos últimos 3 meses. A mãe relata que os sintomas apareceram de maneira súbita – o paciente era um adolescente saudável antes do quadro atual; quase não buscava atendimento na UBS. Ela notou que o filho estava ingerindo muito mais água do que tinha o costume de ingerir no dia-a-dia, além de observar suas idas mais frequentes ao banheiro. A mãe relata também um emagrecimento acentuado do paciente, que não está associado à inapetência – na verdade, relata que o filho estava comendo de maneira excessiva (polifagia). Ademais, a mãe percebeu que o filho tem ficado mais letárgico, o que a preocupou devido à queda do rendimento na escola. Além disso, o paciente relata uma falta de ânimo para realizar atividades físicas, o que contrasta com a alta disposição que ele dispunha para realizá-las antes do aparecimento dos sintomas. Paciente ratifica os relatos da mãe. Ambos negam presença de sintomas febris no paciente. Devido ao aparecimento dos sintomas anteriormente comentados, há cerca de 3 semanas a mãe do paciente resolveu procurar a UBS de seu bairro. Após realizar a consulta, a Dra. Juliana solicitou hemograma completo, dosagem da glicemia sérica em jejum, glicemia 2 horas após teste de tolerância oral à glicose e exame parasitológico de fezes. O paciente trouxe os resultados dos exames, que constam na seção “Exames Complementares”. Qual o diagnóstico mais provável?
+
+Teste 3 
+Resposta esperada: Dispepsia Funcional
+Comando: Dado o caso clínico: Paciente refere saciedade precoce há 10 meses, não conseguindo terminar algumas refeições, relatando que muitas vezes só consegue ingerir metade da porção que costumava comer habitualmente. Diz que no início dos sintomas esses incidentes ocorriam em média 2 vezes na semana, no entanto há 6 meses houve uma intensificação do quadro com o aumento dos episódios de saciedade precoce para em média 4 vezes na semana. Associado a isso, paciente também refere sensação de plenitude pós-prandial, náuseas e eventualmente dor em queimação no epigástrio, de intensidade 4 em 10 e sem irradiação. Refere melhora dos sintomas ao ficar em jejum e piora ao se alimentar. Informa ter perdido bastante peso nesses últimos meses por conta da dificuldade de realizar as refeições, mas não sabe mensurar quanto. Nega ter feito uso de medicamentos para alívio de sintomas e ter procurado outros serviços de saúde. Qual o diagnóstico mais provável?
+
+Teste com áudio da consulta
+Comando: Analise esse áudio e crie uma ficha de paciente com os dados e as queixas que ele relata.
+
+Teste com radiografia
+Resposta esperada: Granulomatose com poliangeíte (GPA)
+Comando: Sabendo que a imagem apresenta uma radiologia de um paciente do sexo masculino, 50 anos, referindo quadro de dispneia e hemoptise. Como achados adicionais, apresentava quadro recente de rinossinusite e hematúria detectada em exame laboratoria. Qual o diagnóstico mais provável? 

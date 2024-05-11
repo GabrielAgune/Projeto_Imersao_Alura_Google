@@ -1,0 +1,5 @@
+Teste 1 
+Resposta esperada: Insuficiência Cardíaca
+
+Comando: Dado o caso clínico: Paciente, sexo masculino, em uma consulta na Unidade Básica de Saúde relata cansaço há 3 dias acompanhado de dispneia, que piora com esforço, melhora ao repouso. Além disso, relata dispneia paroxística noturna. Nega dor precordial, nega febre, nega tontura, nega tabagismo e nega etilismo. Qual o diagnóstico mais provável?
+

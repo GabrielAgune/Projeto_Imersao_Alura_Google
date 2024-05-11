@@ -71,23 +71,21 @@ Se o usuário não souber fazer o upload ou não sabe o caminho do arquivo, bast
 
 <img src="img/AjudaComp.png">
 
-### IA em ação
-
 Na pasta testes, estão todos os arquivos e prompts que usei para testar a funcionalidade da IA.
 
-#### Comando com apenas texto 
+### Comando com apenas texto 
 
 Para testar a capacidade de diagnóstico da IA, busquei algumas questões comumente encontradas nas provas de residência médica onde um quadro clínico é apresentado e deve-se dar o diagnóstico possível. Quadros clínicos foram retirados do link: https://sanarmed.com/casos-clinicos-de-medicina-recentes-para-se-atualizar/
 
 Como exemplo, escolhi o seguinte caso clínico disponível no site: 
 
-- Paciente, sexo masculino, em uma consulta na Unidade Básica de Saúde relata cansaço há 3 dias acompanhado de dispneia, que piora com esforço, melhora ao repouso. Além disso, relata dispneia paroxística noturna. Nega dor precordial, nega febre, nega tontura, nega tabagismo e nega etilismo. 
-- A resposta esperada é Insuficiência Cardíaca.
+<img src="img/teste1caso.png">
 
 Após iniciar a IA inserindo meu nome, digitei o seguinte comando: 
 
 Dado o caso clínico: Paciente, sexo masculino, em uma consulta na Unidade Básica de Saúde relata cansaço há 3 dias acompanhado de dispneia, que piora com esforço, melhora ao repouso. Além disso, relata dispneia paroxística noturna. Nega dor precordial, nega febre, nega tontura, nega tabagismo e nega etilismo. Qual o diagnóstico mais provável?
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### Resposta da IA: 
 
 Resposta:  Com base nos sintomas relatados, o diagnóstico mais provável é **Insuficiência Cardíaca**. 
@@ -118,7 +116,9 @@ O tratamento da IC depende da causa subjacente e da gravidade dos sintomas. As o
 
 **Lembrando que sou uma inteligência artificial para otimizar os resultados. Os diagnósticos, pedidos de exames e prescrições devem ser feitos SEMPRE por médicos com CRM ativo.**
 
-  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Comando com arquivos
 
 
 

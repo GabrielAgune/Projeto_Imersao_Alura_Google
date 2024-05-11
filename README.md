@@ -249,5 +249,10 @@ A implementação da IA em hospitais representa um marco na busca por um atendim
 
 O futuro da saúde é promissor, com a IA Generativa do Google mostra como pode ser aliada na construção de um sistema mais eficiente, humanizado e acessível a todos.
 
+## Links complementares 
 
+- [Google Colab](https://colab.research.google.com/)
+- [Guia de início rápido na API Gemini](https://ai.google.dev/gemini-api/docs/quickstart?hl=pt-br)
+- [Obtenha sua API KEY do Google](https://aistudio.google.com/app/apikey/?utm_source=website&utm_medium=referral&utm_campaign=Alura&utm_content=)
+- [Meu Linkedin](https://linkedin.com/in/gabriel-agune)
 

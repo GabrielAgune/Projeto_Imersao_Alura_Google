@@ -53,9 +53,34 @@ A **Cura** não é apenas uma ferramenta, é a chave para um futuro onde o diagn
 
 ## Resultados 
 
-### Interface:
+### Interface
 
+Ao rodar o código o sistema solicitará o nome do usuário: 
 
+<img src="img/nome.png">
+
+Após digitar o usuário digitar o nome, a IA perguntará como pode ajudar o usuário e as opções que ele tem para prosseguir. O usuário pode digitar o seu comando ou se precisar de algum arquivo para analisar basta digitar a palavra "arquivo" no chat.
+
+<img src="img/Comando inicial.png">
+
+Caso o usuário digite "arquivo", a IA solicitará o caminho (path) do arquivo que o usuário fez upload no Google Colab. 
+
+<img src="img/arquivo.png">
+
+Se o usuário não souber fazer o upload ou não sabe o caminho do arquivo, basta escrever "ajuda" no chat. Dessa maneira, a IA apresenta instruções de como fazer o upload e copiar o caminho do arquivo, tornando o programa mais acessível a pessoas que nunca usaram o Colab.
+
+<img src="img/AjudaComp.png">
+
+### IA em ação
+
+Na pasta testes, estão todos os arquivos e prompts que usei para testar a funcionalidade da IA.
+
+#### Comando com apenas texto 
+
+- Texto de caso clínico + link do site
+- resposta esperada
+- Resposta dada pela IA
+  
 
 
 

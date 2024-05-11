@@ -77,6 +77,8 @@ Na pasta testes, estão todos os arquivos e prompts que usei para testar a funci
 
 ### Comando com apenas texto 
 
+1 - Diagnóstico
+
 Para testar a capacidade de diagnóstico da IA, busquei algumas questões comumente encontradas nas provas de residência médica onde um quadro clínico é apresentado e deve-se dar o diagnóstico possível. Quadros clínicos foram retirados do link: https://sanarmed.com/casos-clinicos-de-medicina-recentes-para-se-atualizar/
 
 Como exemplo, escolhi o seguinte caso clínico disponível no site: 
@@ -120,7 +122,86 @@ O tratamento da IC depende da causa subjacente e da gravidade dos sintomas. As o
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+2 - Medicação recomendada
+
+
+
 ### Comando com arquivos
+
+1 - Arquivo de áudio
+
+Para testar a capacidade da IA receber arquivos e trabalhar com eles foi utilizado como base um exemplo de anamnese (Consulta médica para adquirir os dados e queixas do paciente) de um vídeo no Youtube do canal do CDDE da Faculdade de Medicina de RIbeirão Preto da USP disponível no link: https://www.youtube.com/watch?v=-BsAJyoj_Kw 
+
+<img src="img/videoconsulta.png">
+
+A IA tem a capacidade de analisar o vídeo e descrever com precisão as situações que ocorrem nele. Porém, a fim de exigir mais da IA, extrai apenas o áudio do vídeo (Disponível na pasta Testes) e com esse áudio pedi para IA que ela criasse a ficha do paciente, apenas com as informações que ele forneceu durante a consulta.
+
+Comando: Analise esse áudio e crie uma ficha de paciente com os dados e as queixas que ele relata.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Resposta da IA: 
+Resposta: Ficha de Paciente
+
+**Nome:** Carlos
+**Idade:** 52 anos
+**Estado Civil:** Casado
+**Profissão:** Escritor de Engenharia
+**Naturalidade:** Ribeirão Preto
+**Residência:** Ribeirão Preto
+
+**Queixa Principal:** Dor no peito
+**Histórico da Dor:**
+
+* **Episódio 1:** Dor fraca no meio do peito enquanto trabalhava no escritório. Não deu importância.
+* **Episódio 2:** Dor mais forte no meio do peito enquanto caminhava. A dor irradiou para o braço esquerdo e sentiu-se "meio abafado". A dor diminuiu ao reduzir o ritmo da caminhada.
+* **Episódio 3:** Dor fraca no meio do peito enquanto estava em casa à noite. Ficou mais preocupado.
+
+**Outras Informações:**
+
+* A dor passa sozinha após alguns minutos.
+* Não utilizou medicamentos para aliviar a dor.
+* Boa digestão e intestino funcionando bem.
+* Sem histórico familiar de problemas cardíacos.
+* Ex-fumante (dos 14 aos 38 anos, média de meio maço por dia).
+* Consumo de cerveja somente aos finais de semana.
+* Não pratica atividade física regularmente, apenas caminhadas 3 a 4 vezes por semana.
+* Não se considera estressado ou ansioso.
+
+**Observações:**
+
+* Paciente relata dor torácica com características sugestivas de angina. 
+* É importante investigar a causa da dor e avaliar a saúde cardiovascular do paciente.
+
+**Lembrando que sou uma inteligência artificial para otimizar os resultados. Os diagnósticos, pedidos de exames e prescrições devem ser feitos SEMPRE por médicos com CRM ativo.** 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2 - Arquivo imagem
+
+Outro arquivo utilizado, foi a imagem de uma radiografia retirada da Prova de Residência da CRB (Colégio Brasileiro de Radiologia) de 2021, a questão base está representada a seguir:
+
+<img src="img/QuestãoCerta.png">
+
+Ao inserir a imagem, o comando utilizado foi: Sabendo que a imagem apresenta uma radiologia de um paciente do sexo masculino, 50 anos, referindo quadro de dispneia e hemoptise. Como achados adicionais, apresentava quadro recente de rinossinusite e hematúria detectada em exame laboratoria. Qual o diagnóstico mais provável?
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Resposta da IA: 
+
+Resposta:  A radiografia de tórax apresentada demonstra um aumento da densidade em campos pulmonares superiores, bilateral, sugerindo processo inflamatório/infeccioso, possivelmente pneumonia. 
+
+Considerando o quadro clínico de dispneia, hemoptise, rinossinusite recente e hematúria, a principal hipótese diagnóstica é **Granulomatose com poliangeíte (GPA)**, anteriormente conhecida como Granulomatose de Wegener.
+
+A GPA é uma doença autoimune rara que causa inflamação dos vasos sanguíneos, afetando principalmente os pulmões, seios nasais e rins. As manifestações pulmonares podem variar de pneumonia a hemorragia alveolar.
+
+**Exames complementares para confirmar o diagnóstico:**
+
+* Tomografia computadorizada de tórax de alta resolução (TCAR)
+* Biópsia pulmonar para análise histopatológica
+* Testes sorológicos para detecção de anticorpos anticitoplasma de neutrófilos (ANCA), especialmente c-ANCA (anti-proteinase 3)
+
+**ATENÇÃO:** Lembrando que sou uma inteligência artificial para otimizar os resultados. Os diagnósticos, pedidos de exames e prescrições devem ser feitos **SEMPRE** por médicos com CRM ativo. 
 
 
 

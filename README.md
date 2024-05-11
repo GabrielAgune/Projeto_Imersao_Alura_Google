@@ -124,7 +124,43 @@ O tratamento da IC depende da causa subjacente e da gravidade dos sintomas. As o
 
 2 - Medicação recomendada
 
+Para testar a capacidade de recomendação de medicamento da IA, foi utilizado um caso clínico que se espera a recomendação de anti-histamínico e descongestinantes nasais.
 
+<img src="img/CasoLucia.png">
+
+Comando: Qual o medicamento mais provável para prescrição dado o seguinte caso:  Ana Lucia, 35 anos, médica veterinária, apresenta-se ao farmacêutico com queixa de coriza e congestão nasal. Solicita à farmacêutica um medicamento para ajudar no alívio dos sintomas. Relata que, com suspeita de um resfriado ou gripe, administrou dipirona em seu domicílio, sem melhora. Após acolhimento e identificação da queixa, o farmacêutico realizou a seguinte anamnese:  Há quanto tempo está com esta queixa? Há 2 dias. Como é a coriza que está apresentando? Não para de escorrer um líquido transparente. Possui sinais e sintomas associados? Espirro e coceira no nariz. Não tenho dor no corpo ou na face. Também não tenho febre. Minha temperatura axilar em casa foi de 37,2ºC. Percebe a presença de fatores ambientais associados? Comecei a trabalhar em uma clínica veterinária recentemente. Já utilizou algum medicamento para esta queixa? Usei dipirona, mas não senti alívio nenhum. Possui algum problema de saúde? Lembro-me de ter rinite alérgica no passado. Utiliza algum medicamento? Não utilizo
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Resposta da IA: 
+
+Resposta:  Com base nos sintomas de Ana Lucia, um medicamento comumente indicado seria um **descongestionante nasal tópico**, como **oximetazolina** ou **nafazolina**. Esses medicamentos ajudam a reduzir a congestão nasal, aliviando a coriza e a sensação de nariz entupido. 
+
+É importante considerar a possibilidade de rinite alérgica, devido ao histórico da paciente e ao trabalho em clínica veterinária, que a expõe a potenciais alérgenos. Um **anti-histamínico oral**, como **loratadina** ou **cetirizina**, pode ser associado ao descongestionante nasal para um melhor controle dos sintomas.
+
+**Recomendações:**
+
+*   O uso de descongestionantes nasais tópicos deve ser limitado a poucos dias, pois o uso prolongado pode levar ao efeito rebote.
+*   A dipirona não é eficaz no tratamento de sintomas de resfriado ou rinite alérgica.
+*   É importante investigar a possibilidade de alergia a animais, considerando o trabalho da paciente em uma clínica veterinária.
+
+***Lembrando que sou uma inteligência artificial para otimizar os resultados. Os diagnósticos, pedidos de exames e prescrições devem ser feitos SEMPRE por médicos com CRM ativo.***
+ 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3 - Comandos que não estão relacionados a área da saúde
+
+O intuito do pojeto é criar uma IA que atue exclusivamente para auxiliar os profissionais da saúde, então não cabe a ela responder perguntas ou realizar comandos que não estejam relacionados com a área da saúde. Com isso, graças a possibilidade de configuração do 'system_instruction' da GenAI do Google, é possível criar essa regra. A seguir, segue um exemplo de como a IA responde caso perguntada sobre algo que não envolve sua área de atuação.
+
+Comando: Quanto foi o jogo do São Paulo ontem?
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Resposta da IA: 
+
+Resposta:  Eu sou uma assistente de saúde, não cabe a mim responder isso. 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Comando com arquivos
 
@@ -203,6 +239,15 @@ A GPA é uma doença autoimune rara que causa inflamação dos vasos sanguíneos
 
 **ATENÇÃO:** Lembrando que sou uma inteligência artificial para otimizar os resultados. Os diagnósticos, pedidos de exames e prescrições devem ser feitos **SEMPRE** por médicos com CRM ativo. 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Conclusão
+
+A implementação da IA em hospitais representa um marco na busca por um atendimento médico mais eficaz, preciso e humanizado. Através da otimização de processos, do auxílio na tomada de decisões e da promoção de uma experiência mais personalizada para o paciente, a IA se configura como uma ferramenta essencial para o futuro da saúde.
+
+É importante ressaltar que a IA não substitui o profissional médico, mas atua como um poderoso aliado, complementando suas habilidades e ampliando suas capacidades. A relação entre homem e máquina deve ser pautada pela colaboração, aprimorando o atendimento e proporcionando melhores resultados para os pacientes.
+
+O futuro da saúde é promissor, com a IA Generativa do Google mostra como pode ser aliada na construção de um sistema mais eficiente, humanizado e acessível a todos.
 
 
 

@@ -77,7 +77,7 @@ Na pasta testes, estão todos os arquivos e prompts que usei para testar a funci
 
 #### Comando com apenas texto 
 
-- Texto de caso clínico + link do site
+Para testar a capacidade de diagnóstico da IA, busquei algumas questões comumente encontradas nas provas de residência médica onde um quadro clínico é apresentado e deve-se dar o diagnóstico possível. Quadros clínicos foram retirados <a href=“https://sanarmed.com/casos-clinicos-de-medicina-recentes-para-se-atualizar/“>deste site</a>
 - resposta esperada
 - Resposta dada pela IA
   

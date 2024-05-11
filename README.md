@@ -1,6 +1,12 @@
 # Cura - A Inteligência Artificial que Revoluciona o Diagnóstico e o Atendimento Hospitalar 🤖
 
-<img src="img/Cura.png">
+<img src="img/iacapa.png">
+
+## Resumo
+
+O projeto visa encontrar uma maneira de otimizar os processos hospitalares, desde a criação da ficha de pacientes até diagnósticos de doenças e prescrições de remédios. 
+
+Para o desenvolvimento do projeto foi utilizado algumas ferramentas como o Google Colab, a linguagem Python e o elemento principal: a Inteligência Artificial Generativa do Google. O entendimento e a criação desse projeto só foi possível graças a Imersão IA 2ª Edição da Alura em parceria com o Google. 
 
 ## Introdução 
 
@@ -28,7 +34,9 @@ Atendimento humanizado: Chatbots e assistentes virtuais podem oferecer suporte a
 
 Pensando nos problemas apresentados e no impacto da IA nos hospitais, desenvolvemos a **Cura**.
 
-O que é a **Cura**?
+<img src="img/Cura.png">
+
+### O que é a **Cura**?
 
 +  Diagnósticos ágeis e precisos: A **Cura** analisa seus sintomas e queixas com maestria, fornecendo as principais suspeitas diagnósticas com rapidez e precisão, otimizando o processo de encaminhamento para o médico especialista e diminuindo o tempo de espera por atendimento.
 
@@ -42,4 +50,13 @@ O que é a **Cura**?
 
 
 A **Cura** não é apenas uma ferramenta, é a chave para um futuro onde o diagnóstico e o atendimento hospitalar são mais precisos, eficientes e humanizados. Porque saúde de qualidade deve ser um direito universal, acessível a todos, independentemente de renda, status social ou tipo de instituição de saúde
+
+## Resultados 
+
+### Interface:
+
+
+
+
+
 

@@ -71,6 +71,8 @@ Se o usuário não souber fazer o upload ou não sabe o caminho do arquivo, bast
 
 <img src="img/AjudaComp.png">
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Na pasta testes, estão todos os arquivos e prompts que usei para testar a funcionalidade da IA.
 
 ### Comando com apenas texto 

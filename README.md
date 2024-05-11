@@ -77,9 +77,47 @@ Na pasta testes, estão todos os arquivos e prompts que usei para testar a funci
 
 #### Comando com apenas texto 
 
-Para testar a capacidade de diagnóstico da IA, busquei algumas questões comumente encontradas nas provas de residência médica onde um quadro clínico é apresentado e deve-se dar o diagnóstico possível. Quadros clínicos foram retirados <a href=“https://sanarmed.com/casos-clinicos-de-medicina-recentes-para-se-atualizar/“>deste site</a>
-- resposta esperada
-- Resposta dada pela IA
+Para testar a capacidade de diagnóstico da IA, busquei algumas questões comumente encontradas nas provas de residência médica onde um quadro clínico é apresentado e deve-se dar o diagnóstico possível. Quadros clínicos foram retirados do link: https://sanarmed.com/casos-clinicos-de-medicina-recentes-para-se-atualizar/
+
+Como exemplo, escolhi o seguinte caso clínico disponível no site: 
+
+- Paciente, sexo masculino, em uma consulta na Unidade Básica de Saúde relata cansaço há 3 dias acompanhado de dispneia, que piora com esforço, melhora ao repouso. Além disso, relata dispneia paroxística noturna. Nega dor precordial, nega febre, nega tontura, nega tabagismo e nega etilismo. 
+- A resposta esperada é Insuficiência Cardíaca.
+
+Após iniciar a IA inserindo meu nome, digitei o seguinte comando: 
+
+Dado o caso clínico: Paciente, sexo masculino, em uma consulta na Unidade Básica de Saúde relata cansaço há 3 dias acompanhado de dispneia, que piora com esforço, melhora ao repouso. Além disso, relata dispneia paroxística noturna. Nega dor precordial, nega febre, nega tontura, nega tabagismo e nega etilismo. Qual o diagnóstico mais provável?
+
+#### Resposta da IA: 
+
+Resposta:  Com base nos sintomas relatados, o diagnóstico mais provável é **Insuficiência Cardíaca**. 
+
+A dispneia,  piora com esforço e  melhora com repouso, juntamente com a dispneia paroxística noturna, são sintomas clássicos da IC.  
+
+Para confirmar o diagnóstico e determinar a causa base, seriam necessários exames complementares como:
+
+-   **Eletrocardiograma:**  para avaliar o ritmo e a função elétrica do coração.
+-   **Radiografia de tórax:**  para verificar o tamanho e a forma do coração, além de detectar congestão pulmonar.
+-   **Ecocardiograma:**  para avaliar a estrutura e a função do coração, incluindo a fração de ejeção.
+-   **Exames laboratoriais:**  como hemograma completo, função renal, eletrólitos e marcadores de função cardíaca (BNP e NT-proBNP).
+
+Possíveis causas da Insuficiência Cardíaca:
+
+-   Doença arterial coronariana
+-   Hipertensão arterial
+-   Doenças valvares cardíacas
+-   Miocardiopatias
+
+Tratamento da Insuficiência Cardíaca:
+
+O tratamento da IC depende da causa subjacente e da gravidade dos sintomas. As opções terapêuticas incluem:
+
+-  **Medicamentos:**  como diuréticos, inibidores da ECA, betabloqueadores, antagonistas da aldosterona e digitálicos.
+-   **Mudanças no estilo de vida:**  como dieta com baixo teor de sódio, restrição hídrica, controle do peso e atividade física regular.
+-   **Procedimentos:**  como angioplastia coronariana, cirurgia de revascularização do miocárdio ou implante de dispositivos cardíacos.
+
+**Lembrando que sou uma inteligência artificial para otimizar os resultados. Os diagnósticos, pedidos de exames e prescrições devem ser feitos SEMPRE por médicos com CRM ativo.**
+
   
 
 
